@@ -164,7 +164,7 @@ const Hero = () => {
             {/* Text/Image Section */}
             <div className="flex flex-col justify-center items-start w-full md:w-1/2 max-w-lg z-10">
                 <Image
-                    src="/assets/DREAMS IN ACTION.png"
+                    src="/Assets/DREAMS IN ACTION.png"
                     alt="DREAMS IN ACTION"
                     width={300}
                     height={300}
