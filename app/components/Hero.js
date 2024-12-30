@@ -31,7 +31,7 @@ const images = [
 const Hero = () => {
     return (
         <div
-            className="deep flex flex-col md:flex-row items-center justify-between bg-black text-white h-auto mx-2 my-7 p-1 sm:mx-10 md:mx-10 lg:mx-28 py-10 "
+            className=" h-auto flex flex-col md:flex-row items-center justify-between bg-black text-white  mx-2 my-7 p-1 sm:mx-10 md:mx-10 lg:mx-28 py-10 "
             style={{ backgroundImage: "url('/Assets/vector.png')" }} // Ensure the background is applied correctly
         >
             {/* Text/Image Section */}
