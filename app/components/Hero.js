@@ -178,7 +178,7 @@ const Hero = () => {
                     className="md:hidden"
                 />
                 <p className="mt-4 text-lg w-11/12">
-                    From a watcher to the DOER, learn skills that the world values the most and shine amongst the crowd with SIRCLE!
+                    Fro a watcher to the DOER, learn skills that the world values the most and shine amongst the crowd with SIRCLE!
                 </p>
                 <button className="mt-6 bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 transition duration-210 w-[200px]">
                     Explore Programs ↓
