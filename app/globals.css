@@ -12,6 +12,7 @@
     rgba(141, 6, 213, 0.3),
     rgba(6, 6, 6, 0.3)
   );  --gradient-purple2: linear-gradient(to right, #060606 1%,#AB06D5 100%);
+  --gradient-bg: linear-gradient(to bottom, #060606 50%,#AB06D5 100%);
 
   }
   * {
@@ -47,5 +48,29 @@ body {
   body{
     background-color: black;
   }
-
+  .my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; 
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
   
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    background: rgb(231, 228, 228);
+    margin-bottom: 30px;
+  }
+
+  /* Custom CSS to hide scrollbars */
+
+
+
+
+.scrollbar-hide {
+  scrollbar-width: none; 
+}

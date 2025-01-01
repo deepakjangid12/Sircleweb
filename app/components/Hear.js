@@ -4,7 +4,7 @@ import Image from 'next/image'; // Importing the Image component from Next.js
 
 export default function HearItFromYourPeers() {
     return (
-        <div className="flex bg-black mx-auto text-white p-8 m-[80px]" style={{ width: '1181px', height: '546px' }}>
+        <div className="flex  mx-auto text-white p-8 m-[80px]" style={{ width: '1181px', height: '546px' }}>
             {/* Left Side - Text Content */}
             <div className="font-Title flex flex-col justify-center w-1/2 pr-8">
                 <h1 className="text-4xl font-bold mb-4">Hear It <br /> From Your Peers</h1>

@@ -102,7 +102,7 @@ export default function Explore() {
             </div>
 
 
-            <div className="flex items-center border-t-2 border-l-2 border-b-4 border-r-4 justify-between bg-black text-white rounded-xl p-4 w-[600px] h-[126px] mx-auto mt-8">
+            <div className="flex items-center border-t-2 border-l-2 border-b-4 border-r-4 justify-between  text-white rounded-xl p-4 w-[600px] h-[126px] mx-auto mt-8">
                 <div className="flex-grow">
                     <h2 className="text-lg font-bold">Still Confused?</h2>
                     <p className="text-sm">Talk To Councellor
