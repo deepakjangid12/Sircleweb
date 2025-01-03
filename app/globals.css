@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -74,3 +75,35 @@ body {
 .scrollbar-hide {
   scrollbar-width: none; 
 }
+
+ 
+@keyframes loop-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); 
+  }
+}
+
+.animate-loop-scroll {
+  animation: loop-scroll 35s linear infinite; 
+  display: flex; 
+} 
+
+/* Inner stroke effect */
+.stroke-effect {
+  color: white; 
+  -webkit-text-stroke: 1px black;
+  text-shadow: 
+    2px 2px 0 #ffffff;    /* Shadow slightly inward (to the right and below) */
+}
+/* styles/globals.css */
+.gradient-border{
+  box-shadow: 2px 2px 0 white;
+  /* border: 2px solid transparent;  */
+}
+
+
+
+
