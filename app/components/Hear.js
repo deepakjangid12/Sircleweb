@@ -2,7 +2,7 @@ import Image from 'next/image'; // Importing the Image component from Next.js
 
 export default function HearItFromYourPeers() {
     return (
-        <div className="flex flex-col md:flex-row mx-auto  text-white md:px-[32px] p-5  md:mx-[80px]  w-auto md:h-[546px]" >
+        <div className="flex flex-col md:flex-row mx-auto  text-white md:px-[32px] p-5  md:mx-[80px]  w-auto md:h-[560px] h-[600px]" >
 
             {/* Left Side - Text Content */}
             <div className="font-Title flex flex-col justify-center w-full md:w-1/2 pr-0 md:pr-8 mb-5 md:mt-0 mt-10 md:mb-0">
@@ -35,7 +35,7 @@ export default function HearItFromYourPeers() {
                         <Image src="/Assets/circle2.png" alt="Peer Image 3" width={90} height={90} className="rounded-full md:w-[125px] md:h-[125px]" />
                     </div>
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(270deg)', animationDelay: '-30s' }}>
-                        <Image src="/Assets/circle1.png" alt="Peer Image 4" width={50} height={50} className="rounded-full md:w-[90px] md:h-[90px]" />
+                        <Image src="/Assets/circle1.png" alt="Peer Image 4" width={51} height={51} className="rounded-full md:w-[92px] md:h-[92px]" />
                     </div>
                 </div>
             </div>
