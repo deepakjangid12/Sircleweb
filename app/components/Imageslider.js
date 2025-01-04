@@ -90,7 +90,7 @@ const TrendingSlider = ({ title }) => {
                         >
                             <Image
                                 src={item.src}
-                                alt={`Slide ${index + 1}`}
+                                alt={`image of  ${item.name}`}
                                 className="rounded-lg"
                                 layout="fill"
                                 objectFit="cover"

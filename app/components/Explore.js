@@ -17,6 +17,7 @@ export default function Explore() {
                                 src="/Assets/offline.png"
                                 width={45}
                                 height={100}
+                                alt="glow up"
                                className=' mb-3 md:mb-6 md:w-[100px] md:h[100px] '
                             />
                             <h2 className="md:text-5xl font-bold font-Title  ">Glow Up</h2>
@@ -25,6 +26,7 @@ export default function Explore() {
                                 src="/Assets/stars.png"
                                 width={100}
                                 height={100}
+                                alt="pattern"
                                 className='absolute right-0 bottom-1  md:w-[190px] md:h[190px] '
                             />
                         </div>
@@ -40,6 +42,7 @@ export default function Explore() {
                                 src="/Assets/online.png"
                                 width={45}
                                 height={40}
+                                alt="skill surge"
                                className='mb-2 md:mb-3  md:w-[100px] md:h[100px] '
                             />
                             <h2 className="md:text-5xl font-bold font-Title">Skill Surge</h2>
@@ -47,6 +50,7 @@ export default function Explore() {
                             <Image
                                 src="/Assets/stars.png"
                                 width={100}
+                                alt="pattern"
                                 height={100}
                                 className='absolute right-0 bottom-1 md:w-[190px] md:h[190px] '
                             />
@@ -73,8 +77,9 @@ export default function Explore() {
                         <Image
                             src="/Assets/robot.png" // Replace with your robot image path
                             alt="Confusion Robot"
-                            width={98}
-                            height={98}
+                            width={40}
+                            height={40}
+                            className='md:h-[98] md:w[98]'
                         />
 
                     </div>
