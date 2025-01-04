@@ -93,7 +93,7 @@ const breakpoints = {
 
     return (
         <div className=" py-10 px-5 md:px-[80px] md:mx-10">
-            <h2 className="text-center text-4xl font-bold mb-10 text-white ">Hear it from the Learners</h2>
+            <h2 className="text-center text-4xl font-bold md:my-[80px]  my-10 text-white ">Hear it  from <br /> the Learners</h2>
             <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid "

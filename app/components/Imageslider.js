@@ -2,43 +2,105 @@
 import React, { useRef } from 'react';
 import Image from 'next/image';
 
-const images = [
-    '/Assets/slide1.png',
-    '/Assets/slide2.png',
-    '/Assets/slide3.png',
-    '/Assets/slide4.png',
-    '/Assets/slide1.png',
-    '/Assets/slide2.png',
-    '/Assets/slide3.png',
-    '/Assets/slide4.png',
-    '/Assets/slide4.png',
-    '/Assets/slide2.png'
+const imageData = [
+    {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/img2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },
+    // Add more entries as needed
 ];
 
 const TrendingSlider = ({ title }) => {
     const rowRef = useRef(null);
 
     return (
-        <div className="p-6">
+        <div className="md:p-6   my-[65px]">
             <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
-            <div className="relative mt-4 h-[352px] overflow-hidden">
+            <div className="relative mt-4 md:h-[352px] h-[253px] overflow-hidden">
                 <div
                     ref={rowRef}
-                    className="flex space-x-8 overflow-x-auto scrollbar-hide" // Adjusted space-x value
+                    className="flex space-x-8 overflow-x-auto scrollbar-hide"
                     style={{ height: '100%' }}
                 >
-                    {images.map((img, index) => (
-                        <div
+                    {imageData.map((item, index) => (
+                        <div 
                             key={index}
-                            className="relative rounded-lg shadow-md min-w-[240px] h-[320px] flex items-center justify-center"
+                            className="relative  rounded-lg shadow-md min-w-[200px] md:min-w-[240px] md:h-[320px] h-[240px] flex flex-col items-center justify-center"
                         >
                             <Image
-                                src={img}
+                                src={item.src}
                                 alt={`Slide ${index + 1}`}
-                                className="rounded-lg" // rounded corners
-                                layout="fill" // Fill parent div dimensions
-                                objectFit="cover" // Maintain aspect ratio
+                                className="rounded-lg"
+                                layout="fill"
+                                objectFit="cover"
                             />
+                            <div className="absolute  p-2ebg-opacity-75 w-ful text-center bottom-6 ">
+                                <h3 className="font-semibold text-white ">{item.name}</h3>
+                            </div>
+                            <div className='absolute bottom-[-10] w-[60px] '>
+                          <h2 className="text-sm rounded-sm text-center border-1  bg-white">{item.label}</h2>
+                            </div>
                         </div>
                     ))}
                 </div>
@@ -48,3 +110,4 @@ const TrendingSlider = ({ title }) => {
 };
 
 export default TrendingSlider;
+

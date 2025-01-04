@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Image from 'next/image'; // Importing Image component from Next.js
-
+import { FaAngleDoubleDown } from "react-icons/fa";
 const images = [
     '/Assets/img1.png',
     '/Assets/img2.png',
@@ -49,13 +49,15 @@ const Hero = () => {
                     From a watcher to the DOER, learn skills that the world values the most and shine amongst the crowd with SIRCLE!
                 </p>
                     <button className="mt-10 border-2 border-purple-400 bg-gradient-to-br from-[rgba(6,6,6,0.9)] to-[rgba(171,6,213,0.92)] text-white py-2 px-4 rounded-md hover:bg-purple-400  md:w-[261px] md:h-[60px] gradient-border " >
-                       <span > Explore Programs ↓</span>
+                       <span  className='flex items-center'> Explore Programs 
+                        <FaAngleDoubleDown className='ml-2' />
+                       </span>
                     </button>
             </div>
 
 
             {/* Image Section */}
-            <div className="grid grid-rows-6 mt-14 md:mt-0 w-full md:w-[40%]">
+            <div className="grid grid-rows-6 mt-14 md:mt-0 w-full md:w-[42%]">
                 {Array.from({ length: 6 }).map((_, rowIndex) => (
                     <div key={rowIndex} className="grid grid-cols-7 gap-0">
                         {Array.from({ length: 7 }).map((_, colIndex) => {

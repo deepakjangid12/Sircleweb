@@ -1,33 +1,33 @@
 
 import React from 'react';
-import { FiBarChart2, FiUsers, FiTag } from 'react-icons/fi';
+import Image from 'next/image';
 
 const Home = () => {
   const stats = [
     {
       number: '5000+',
       label: 'Futures Unlocked',
-      icon: <FiBarChart2 className="text-4xl mb-2 text-gray-700" />,
+      imageSrc: '/Assets/slid.png', // Replace with the actual image path
     },
     {
       number: '30+',
       label: 'Sessions Conducted',
-      icon: <FiUsers className="text-4xl mb-2 text-gray-700" />,
+      imageSrc: '/Assets/slide.png', // Replace with the actual image path
     },
     {
       number: '1000+',
       label: 'Strong Insights',
-      icon: <FiTag className="text-4xl mb-2 text-gray-700" />,
+      imageSrc: '/Assets/stats.png', // Replace with the actual image path
     },
   ];
 
   return (
     <>
-      <div className="flex flex-col items-center  justify-center ">
+      <div className="flex flex-col items-center  justify-center  ">
         {/* Overall Container */}
-        <div className="md:w-[1185px] w-full md:h-[235px] flex flex-col items-center justify-between shadow-md p-4 overflow-hidden">
+        <div className="md:w-[1185px] w-full md:h-[250px] flex flex-col items-center justify-between shadow-md p-4 mt-4 overflow-hidden">
           {/* Text Above the Images */}
-          <div className="w-[292px] h-[64px] flex  justify-center   ">
+          <div className="w-[292px] h-[64px] flex  justify-center  mb-7 ">
             <h2 className="text-xl font-medium font-Title text-white text-center">
               paired up with prestigious schools like...
             </h2>
@@ -62,21 +62,50 @@ const Home = () => {
       </div>
     
 
-  
-      <div className="flex justify-center items-center md:m-[100px]  my-12  ">
-    <div className="flex  flex-row  justify-center px-2">
-        {stats.map((stat, index) => (
-            <div
-                key={index}
-                className="flex flex-col items-center justify-center  w-full md:w-[200px] md:h-[200px] m-2 p-2 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-            >
-                {stat.icon}
-                <div className=" md:text-3xl  font-bold">{stat.number}</div>
-                <div className="mt-2 text-gray-600 text-sm text-center">{stat.label}</div>
+ <div className="flex justify-center items-center md:m-[100px]  my-12">
+          <div className="flex flex-row justify-center w-[360px] md:w-[694px] md: px-2">
+
+            {/* First Stat Container */}
+            <div className="flex flex-col items-center justify-center  w-[150px] md:w-[200px] md:h-[200px] h-[132px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+              <Image
+                src="/Assets/stats1.png" // Replace with the actual image path
+                alt="Futures Unlocked"
+                width={65} // Adjust as needed
+                height={65} // Adjust as needed
+                className="object-cover md:h-[50] md:w-[70] "
+              />
+              <div className="md:text-4xl text-xl mt-2 font-Title font-medium">5000+</div>
+              <div className="md:mt-2 text-gray-600 font-Title md:text-sm text-xs text-center">Futures Unlocked</div>
             </div>
-        ))}
-    </div>
-</div>
+
+            {/* Second Stat Container */}
+            <div className="flex flex-col items-center justify-center w-[150px] h-[132px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+              <Image
+                src="/Assets/stats2.png" // Replace with the actual image path
+                alt="Sessions Conducted"
+                width={48}
+                height={60}
+                className="object-cover md:h-[50] md:w-[50]"
+              />
+              <div className="md:text-4xl text-xl mt-2 font-Title font-medium">30+</div>
+              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-xs text-center">Sessions Conducted</div>
+            </div>
+
+            {/* Third Stat Container */}
+            <div className="flex flex-col items-center justify-center  h-[132px] w-[150px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+              <Image
+                src="/Assets/stats3.png" // Replace with the actual image path
+                alt="Strong Insights"
+                width={48}
+                height={49}
+                className="object-cover md:h-[50] md:w-[50]"
+              />
+              <div className="md:text-4xl text-xl mt-2 font-Title font-medium">1000+</div>
+              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-sm text-center">Strong Insights</div>
+            </div>
+            </div>
+            </div>
+
 
 
     </>

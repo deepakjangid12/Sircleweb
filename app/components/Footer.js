@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         // <footer className="bg-gray-900 text-white py-10 px-[40px] md:py-10 md:h-[666px]">
         <footer
-    className="bg-gray-900 text-white py-10 px-[40px] md:py-10"
+    className="bg-gray-900 text-white py-10 md:px-[40px]   px-5 md:py-10 w-full md:w-auto "
     style={{
         background: `linear-gradient(90.56deg, rgba(37, 37, 39, 0.5) 0%, rgba(134, 134, 141, 0) 100%)`,
     }}
@@ -71,9 +71,10 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col mb-6 gap-2">
-                        <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-                        <p>+91 9817134356</p>
-                        <p>hello@sircle.in</p>
+                        <Link className='text-lg font-semibold mb-2' href="/contact">Contact us</Link>
+                        {/* <h3 className="text-lg font-semibold mb-2">Contact Us</h3> */}
+                        <Link className=' hover:text-purple-400 mb-1' href="/contact">+91 9817134356</Link>
+                        <Link className='hover:text-purple-400 mb-1' href="/contact">hello@sircle.in</Link>
                         <p>E-Cell, i3F, IIT <br /> (BHU), Varanasi, Uttar <br /> Pradesh, 221001</p>
                     </div>
                 </div>
