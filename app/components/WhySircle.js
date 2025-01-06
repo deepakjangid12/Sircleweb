@@ -5,13 +5,11 @@ import Image from 'next/image';
 
 const ResponsiveLayout = () => {
   return (
-    <div className=" flex flex-col bg-gradient-to-bl from-pink-500 to-white  bg-white md:flex-row relative justify-center md:px-[80] items-stretch  md:h-[704px]"
-       style={{ backgroundImage: "url('/Assets/vector.png')" }} // Ensure the background is applied correctly
+    <div className=" flex flex-col   bg-white md:flex-row relative bg-[url('/Assets/vector.png')] justify-center md:px-[120]  md:py-2  md:h-[704px] "
 >
-
-      <div className="flex flex-col justify-center items-cente w-full md:w-1/2 space-y-6 p-5">
+      <div className="flex flex-col justify-center items-cente w-full md:w-1/2 space-y-6 ">
   <div className="rounded-lg overflow-hidden max-w-[426px] w-full md:h-[279px] flex flex-col justify-center">
-    <div className="p-4 flex flex-col justify-center items-center md:items-start text-center md:text-left  ">
+    <div className="p-4 md:p-0 flex flex-col justify-center items-center md:items-start text-center md:text-left  ">
       <h1 className="font-circle md:text-6xl text-5xl font-Title font-semibold leading-[90px] text-black">
         Why
       </h1>
@@ -28,12 +26,13 @@ const ResponsiveLayout = () => {
 </div>
 
 
+
       <div className='absolute  top-0  md:top-[70px] md:left-[140px] '>
                 <Image src="/Assets/qsn.png" height={150} width={150} alt="QSN Icon" />
          </div>
 
-      <div className="flex justify-center md:justify-start items-center w-full md:w-1/2 h-full">
-        <div className="rounded-lg  w-[400px] md:w-[534px]  h-[450px]  md:h-[600px] flex flex-col p-4 mb-10 md:mb-0">
+      <div className="flex justify-center  md:justify-start items-center w-full md:w-1/2 h-full">
+        <div className=" w-[400px] md:w-[534px]  h-[450px]  md:h-[600px] flex flex-col p-4 mb-10 md:mb-0">
           <div className="flex-1 grid grid-cols-2 gap-4 h-full">
 
 
@@ -63,8 +62,7 @@ const ResponsiveLayout = () => {
           </div>
         </div>
       </div>
-
-      
+      <Image src='/Assets/whygradient.svg' height={30} width={110} alt="gradient" className=' absolute  md:bottom-[-250px] bottom-[-40px] right-0  md:w-[450px] '/>
     </div>
   );
 };

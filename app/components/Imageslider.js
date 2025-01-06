@@ -75,7 +75,7 @@ const TrendingSlider = ({ title }) => {
     const rowRef = useRef(null);
 
     return (
-        <div className="md:p-6   my-[65px]">
+        <div className="md:p-6  bg-black my-[65px]">
             <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
             <div className="relative mt-4 md:h-[352px] h-[253px] overflow-hidden">
                 <div

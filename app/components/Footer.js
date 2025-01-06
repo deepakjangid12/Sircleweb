@@ -1,17 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaLinkedin,FaPhone, FaWhatsapp, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaPhone, FaWhatsapp, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         // <footer className="bg-gray-900 text-white py-10 px-[40px] md:py-10 md:h-[666px]">
         <footer
-    className="bg-gray-900 text-white py-10 md:px-[40px]   px-5 md:py-10 w-full md:w-auto "
-    style={{
-        background: `linear-gradient(90.56deg, rgba(37, 37, 39, 0.5) 0%, rgba(134, 134, 141, 0) 100%)`,
-    }}
->
-            <div className="container mx-auto flex flex-col md:flex-row justify-center  md:px-20">
+            className=" bg-black text-white py-10  md:mt-10 px-5 md:px-[120px] w-full md:w-auto "
+            style={{
+                background: `linear-gradient(90.56deg, rgba(37, 37, 39, 0.5) 0%, rgba(134, 134, 141, 0) 100%)`,
+            }}
+        >
+            
+            <div className="container mx-auto flex flex-col md:flex-row justify-center  ">
                 <div className="flex flex-col mb-6 w-full md:w-1/2">
                     <div className='max-w-lg'>
                         <h2 className="text-2xl font-bold mb-4">Become an OG ✨</h2>
@@ -20,13 +21,13 @@ const Footer = () => {
                         </p>
                     </div>
                     {/* Adjusting Flex Container for Input and Image */}
-                    <div className="flex flex-row mt-6 justify-between items-center w-full max-w-[500px]">
+                    <div className="flex flex-row mt-6 justify-between items-center w-full md:w-[480px]">
                         <input
                             type="tel"
                             placeholder="Enter your Number"
                             className="border rounded-lg p-2 text-gray-700 w-full md:w-72 md:mr-2"
                         />
-                       
+
                         <Link href="/path-to-your-page" className="flex items-center text-center cursor-pointer ml-4 gradient-border border-2 border-purple-950 md:h-[40px]  bg-gradient-to-br from-[rgba(6,6,6,0.9)] to-[rgba(171,6,213,0.92)] text-white md:py-2 py-1 px-4 rounded-md hover:bg-purple-400  ">
                             <span className="text-xs font-medium font-Title ">Request  a Callback</span> {/* Text */}
                             <FaPhone className=" h-3 w-6" />  {/* Phone icon */}
@@ -80,7 +81,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className="text-center  text-sm border-t border-gray-700 pt-6">
+            <p className="text-center  text-sm border-t border-white pt-6">
                 &copy; 2024 Sircle.in | All Rights Reserved
             </p>
         </footer>

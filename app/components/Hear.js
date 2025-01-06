@@ -2,8 +2,7 @@ import Image from 'next/image'; // Importing the Image component from Next.js
 
 export default function HearItFromYourPeers() {
     return (
-        <div className="flex flex-col md:flex-row mx-auto  text-white md:px-[32px] p-5  md:mx-[80px]  w-auto md:h-[560px] h-[600px]" >
-
+        <div className="flex flex-col md:flex-row mx-auto  text-white  p-3  md:px-[120px]  w-auto md:h-[560px] h-[600px]   bg-[url('/Assets/vector.png')] " >
             {/* Left Side - Text Content */}
             <div className="font-Title flex flex-col justify-center w-full md:w-1/2 pr-0 md:pr-8 mb-5 md:mt-0 mt-10 md:mb-0">
                 <h1
@@ -17,7 +16,7 @@ export default function HearItFromYourPeers() {
                     Hear It <br /> From Your Peers
                 </h1>
 
-                <p className="text-lg font-normal">
+                <p className="text-lg font-normal opacity-75">
                     Develop real-world skills with <br /> our courses designed by industry practitioners.
                 </p>
             </div>
@@ -41,5 +40,14 @@ export default function HearItFromYourPeers() {
             </div>
 
         </div>
+    
+        
     );
 }
+
+
+
+
+
+
+

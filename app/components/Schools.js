@@ -22,13 +22,13 @@ const Home = () => {
   ];
 
   return (
-    <>
-      <div className="flex flex-col items-center  justify-center  ">
+    <div className=' bg-black'>
+      <div className="flex flex-col  items-center  justify-center  ">
         {/* Overall Container */}
         <div className="md:w-[1185px] w-full md:h-[250px] flex flex-col items-center justify-between shadow-md p-4 mt-4 overflow-hidden">
           {/* Text Above the Images */}
           <div className="w-[292px] h-[64px] flex  justify-center  mb-7 ">
-            <h2 className="text-xl font-medium font-Title text-white text-center">
+            <h2 className="md:text-2xl text-base font-medium font-Title text-white text-center">
               paired up with prestigious schools like...
             </h2>
           </div>
@@ -41,19 +41,19 @@ const Home = () => {
 
 
           <div className="flex items-center h-[70px] w-full justify-between animate-loop-scroll" >
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full  object-contain mx-8" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-8" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-8" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-8" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-8" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-8" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-8" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-8" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-8" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-8" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-8" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-8" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-8" />
+            <img src="/Assets/school1.png" alt="Image 1" className="h-full  object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
         </div>
         
           </div>
@@ -66,49 +66,49 @@ const Home = () => {
           <div className="flex flex-row justify-center w-[360px] md:w-[694px] md: px-2">
 
             {/* First Stat Container */}
-            <div className="flex flex-col items-center justify-center  w-[150px] md:w-[200px] md:h-[200px] h-[132px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+            <div className="flex flex-col items-center justify-center  w-[130px] md:w-[200px] md:h-[200px] h-[130px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
                 src="/Assets/stats1.png" // Replace with the actual image path
                 alt="Futures Unlocked"
-                width={65} // Adjust as needed
-                height={65} // Adjust as needed
-                className="object-cover md:h-[50] md:w-[70] "
+                width={48} // Adjust as needed
+                height={60} // Adjust as needed
+                className=" md:h-[50] md:w-[70] aspect-square object-contain "
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">5000+</div>
-              <div className="md:mt-2 text-gray-600 font-Title md:text-sm text-xs text-center">Futures Unlocked</div>
+              <div className="md:mt-2 text-gray-600 font-Title md:text-sm text-[8px] font-medium  text-center">Futures Unlocked</div>
             </div>
 
             {/* Second Stat Container */}
-            <div className="flex flex-col items-center justify-center w-[150px] h-[132px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+            <div className="flex flex-col items-center justify-center w-[130px] h-[130px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
                 src="/Assets/stats2.png" // Replace with the actual image path
                 alt="Sessions Conducted"
                 width={48}
                 height={60}
-                className="object-cover md:h-[50] md:w-[50]"
+                className=" md:h-[50] md:w-[70] aspect-square object-contain"
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">30+</div>
-              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-xs text-center">Sessions Conducted</div>
+              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-[8px] text-center font-medium">Sessions Conducted</div>
             </div>
 
             {/* Third Stat Container */}
-            <div className="flex flex-col items-center justify-center  h-[132px] w-[150px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
+            <div className="flex flex-col items-center justify-center  h-[130px] w-[130px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
                 src="/Assets/stats3.png" // Replace with the actual image path
                 alt="Strong Insights"
                 width={48}
-                height={49}
-                className="object-cover md:h-[50] md:w-[50]"
+                height={60}
+                className="md:h-[50] md:w-[50] aspect-square object-contain"
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">1000+</div>
-              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-sm text-center">Strong Insights</div>
+              <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-[8px] text-center font-medium">Strong Insights</div>
             </div>
             </div>
             </div>
 
 
 
-    </>
+    </div>
   );
 };
 

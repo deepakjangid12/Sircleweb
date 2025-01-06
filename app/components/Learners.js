@@ -92,19 +92,19 @@ const breakpoints = {
 };
 
     return (
-        <div className=" py-10 px-5 md:px-[80px] md:mx-10">
-            <h2 className="text-center text-4xl font-bold md:my-[80px]  my-10 text-white ">Hear it  from <br /> the Learners</h2>
+        <div className="  px-3 md:px-[120px]   ">
+            <div className="flex items-center justify-center  md:text-6xl text-4xl font-medium   md:h-[154px]  my-10 text-white md:stroke-effect-sm ">Hear it  from <br /> the Learners</div>
             <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid "
                 columnClassName="my-masonry-grid_column "
             >
                 {testimonials.map((testimonial, index) => (
-                    <div key={index} className=" p-6 rounded-lg shadow-lg flex flex-col relative ">
+                    <div key={index} className=" p-6 rounded-lg shadow-lg flex flex-col relative  ">
                         <a href={testimonial.linkedIn} target="_blank" rel="noopener noreferrer" className="absolute top-8 right-4 text-blue-500 hover:text-blue-700">
                             <FaLinkedin size={24} />
                         </a>
-                        <div className="flex items-start mb-4">
+                        <div className="flex items-start mb-4 ">
                             <img src={testimonial.avatar} alt={`${testimonial.name}'s avatar`} className="rounded-full w-12 h-12 mr-4" />
                             <div className="flex flex-col">
                                 <h3 className="text-xl font-semibold">{testimonial.name}</h3>

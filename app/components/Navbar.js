@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="gradient-gray border-r border-b border-1  border-gray-600 px-2 sm:px-16 md:px-20 lg:px-28 text-white flex justify-between rounded-b-2xl items-center py-3">
+    <nav className="gradient-gray  border-r border-b border-1  border-gray-600 p-3  md:px-[120px]  text-white flex justify-between rounded-b-2xl items-center  py-3">
       <div className="">
       <Image 
           src="/Assets/logo.png" 
