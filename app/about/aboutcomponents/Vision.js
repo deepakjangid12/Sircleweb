@@ -4,11 +4,11 @@ import { FaPlay } from "react-icons/fa";
 
 const VisionMission = () => {
   return (
-    <div className=" text-white ">
-      <div className="flex items-center justify-center mx-auto container  md:w-[1180px] md:h-[873px]  px-4">
-        <div className="grid grid-cols-1 font-Title md:grid-cols-2 gap-10">
+    <div className=" text-white  flex justify-center md:px-[120px] my-14">
+      {/* <div className="flex items-center justify-center container md:w-[1180px] border  "> */}
+        <div className="grid grid-cols-1 font-Title md:grid-cols-2 gap-10   md:w-[1280px]  md:h-[873px]">
           {/* Vision Section */}
-          <div className="flex flex-col justify-center md:w-[545px]  p-6  rounded-lg shadow-lg">
+          <div className="flex flex-col justify-center md:w-[545px]    rounded-lg shadow-lg">
             <h2 className="text-4xl font-semibold mb-4">Our Vision</h2>
             <ul className="list-none space-y-2 text-base "> {/* Change list style to none */}
 
@@ -79,7 +79,7 @@ const VisionMission = () => {
     </div>
 
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

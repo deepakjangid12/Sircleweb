@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const FoundersNote = () => {
   return (
-    <div className="flex flex-col md:flex-row  bg-white text-black md:h-[600px] ">
+    <div className="flex flex-col md:flex-row mb-24 w-full bg-white text-black md:h-[600px] ">
       <div className="w-full  md:w-1/2 ">
       <div className=' relative border-2 mx-auto md:w-[613px] md:h-[600px] border-red-500 '>
       <div className='md:w-[483px] md:h-[355px] border-2 mx-auto'>
