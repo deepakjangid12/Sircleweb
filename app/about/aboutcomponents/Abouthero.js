@@ -5,41 +5,41 @@ import { FaLinkedin } from 'react-icons/fa'; // Importing the LinkedIn icon
 import { FaAngleDoubleDown } from 'react-icons/fa';
 const HeroSection = () => {
   return (
-    <div className="flex flex-col  items-center justify-center h-screen   text-white">
-        <div className='flex flex-col items-center justify-between text-white  md:w-[794px] md:h-[469px]'>
-      <div className="flex justify-center  border  rounded-lg  items-center gap-[80px] mb-4 md:w-[279px] md:h-[55px]">
+    <div className="flex flex-col  items-center justify-center  my-14 md:h-[600px] text-white">
+        <div className='flex flex-col items-center justify-between text-white   md:w-[794px] md:h-[469px]'>
+      <div className="flex justify-center  border  rounded-lg  items-center gap-8 md:gap-[80px] mb-4 w-[143px] md:w-[279px] h-[29px] md:h-[55px]">
         <Image
           src="/Assets/logo.png"
           alt="logo"
-          width={64}
+          width={34}
           height={50}
-          className="rounded"
+          className="rounded md:w-[90] md:h-[44] "
         />
         <div className="flex items-center">
-        <FaLinkedin size={32} className="mr-2 rounded-lg white" /> {/* Adjust the size and color if needed */}
-        <div className="text-xs font-Title">
+        <FaLinkedin  className="md:size-10 size-4 mr-2 md:rounded-lg white" /> {/* Adjust the size and color if needed */}
+        <div className="md:text-xs text-[5px] font-Title">
           <div>LinkedIn</div>
           <div className='font-semibold'>Glow Up</div>
         </div>
       </div>
       </div >
-      <div className='flex font-Title flex-col justify-between  md:h-[358px]'>
+      <div className='flex font-Title flex-col justify-between px-3  md:h-[358px]'>
         <div className='stroke-effect-blur '>
-      <h1 className="text-6xl md:text-6xl text-white font-medium text-center mb-4">
+      <h1 className="text-[54px] md:text-6xl text-white font-medium text-center mb-4">
         Skills that speak
       </h1>
-      <h2 className="text-xl md:text-5xl text-white font-medium text-center mb-6">
+      <h2 className="text-5xl md:text-5xl px-4 text-white font-medium text-center mb-6">
         Dreams that Soar
       </h2>
       </div>
      
-      <p className=" text-xl  text-center mb-6">
+      <p className="text-xs md:text-xl px-5 text-center mt-4 mb-6">
         Sircle your success with our upskilling platform that bridges the gap
         between students' aspirations and professional career. We empower
         teens with future-ready skills through our EXTERNSHIPS led by field
         achievers and CXOs, turning Dreams Into Action.
       </p>
-      <button href="/more-info" className="flex bg-white w-[195px] h-[73px] text-xl  justify-center items-center mx-auto text-purple-600 rounded-lg px-6 py-2 font-semibold hover:bg-gray-100 transition">
+      <button href="/more-info" className="flex bg-white mt-5 w-[135px] md:w-[195px] h-[42px] md:h-[73px] text-xs md:text-xl  justify-center items-center mx-auto text-purple-600 rounded-lg md:px-6 md:py-2 font-semibold hover:bg-gray-100 transition">
           Know More 
           <FaAngleDoubleDown className='ml-2' />
 

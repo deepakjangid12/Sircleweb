@@ -4,13 +4,13 @@ import { FaPlay } from "react-icons/fa";
 
 const VisionMission = () => {
   return (
-    <div className=" text-white  flex justify-center md:px-[120px] my-14">
+    <div className=" text-white  flex justify-center md:px-[12px] p-5 my-14">
       {/* <div className="flex items-center justify-center container md:w-[1180px] border  "> */}
-        <div className="grid grid-cols-1 font-Title md:grid-cols-2 gap-10   md:w-[1280px]  md:h-[873px]">
-          {/* Vision Section */}
-          <div className="flex flex-col justify-center md:w-[545px]    rounded-lg shadow-lg">
-            <h2 className="text-4xl font-semibold mb-4">Our Vision</h2>
-            <ul className="list-none space-y-2 text-base "> {/* Change list style to none */}
+        <div className="grid  justify-items-center grid-cols-1 font-Title md:grid-cols-2 gap-10   md:w-[1410px]  md:h-[800px]">
+          {/* Vision Section text */}
+          <div className="flex flex-col justify-center md:w-[545px]    rounded-lg shadow-lg order-2  md:order-1">
+            <h2 className="md:text-4xl text-3xl font-semibold mb-4">Our Vision</h2>
+            <ul className="list-none space-y-6 text-base "> {/* Change list style to none */}
 
             <li className="flex items-center mb-2">
               <FaPlay size={30} color='white' className="text-white mr-2" />
@@ -28,7 +28,8 @@ const VisionMission = () => {
             </ul>
            
           </div>
-          <div className="relative  rounded-lg overflow-hidden">
+          {/* vision section image */}
+          <div className="relative  rounded-lg overflow-hidden order-1 md:order-2">
             <Image
               src="/Assets/aboutvision1.svg" // Replace with your vision image path
               // src="/Assets/aboutvision3.svg" // Replace with your vision image path
@@ -40,8 +41,8 @@ const VisionMission = () => {
             />
           </div>
 
-          {/* Mission Section */}
-          <div className="relative  rounded-lg overflow-hidden">
+          {/* Mission Section image */}
+          <div className="relative  rounded-lg overflow-hidden order-3">
             <Image
               src="/Assets/aboutvision2.svg" // Replace with your mission image path
               // src="/Assets/aboutvision4.svg" // Replace with your vision image path
@@ -53,12 +54,12 @@ const VisionMission = () => {
             />
           </div>
          
+{/* mission section text */}
+<div className="flex flex-col    md:w-[545px] md:p- rounded-lg shadow-lg order-4">
+      <h2 className="md:text-4xl text-3xl font-semibold mb-4">Our Mission</h2>
+      <h2 className='md:text-2xl text-xl'>Sircle is commited to:</h2>
 
-<div className="flex flex-col justify-center md:w-[545px] p-6 rounded-lg shadow-lg">
-      <h2 className="text-4xl font-semibold mb-4">Our Mission</h2>
-      <h2 className='text-2xl'>Sircle is commited to:</h2>
-
-      <ul className=" space-y-2 text-base mt-4"> {/* Change list style to none */}
+      <ul className=" space-y-6 text-base mt-4"> {/* Change list style to none */}
         <div className="flex items-center">
           <FaPlay size={15} className="text-white mr-2" /> {/* Add icon for each item */}
           <p>Providing comprehensive skill development programs tailored for teenagers</p>

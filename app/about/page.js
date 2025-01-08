@@ -3,6 +3,7 @@ import Abouthero from './aboutcomponents/Abouthero';
 import Vision from './aboutcomponents/Vision';
 import Think from './aboutcomponents/Think'
 import Founder from './aboutcomponents/Founder'
+import Patnership from './aboutcomponents/Patnership'
 function page() {
   return (
     <div >
@@ -10,6 +11,7 @@ function page() {
       <Think/>
       <Vision/>
       <Founder/>
+      <Patnership/>
     </div>
   )
 }                           
