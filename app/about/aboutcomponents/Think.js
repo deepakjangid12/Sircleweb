@@ -3,8 +3,12 @@ import Image from 'next/image';
 
 const CardsSection = () => {
   return (
-    <div className="bg-gradient-to-r bg-white md:h-[753px]  p-4 md:p-10 flex flex-col justify-center items-center">
-        <div className='flex flex-col md:justify-between justify-evenly  md:w-[720px] h-[550px] md:h-[621px]'>
+    <div className="  bg-[url('/Assets/vector.png')] md:h-[753px]  p-4 md:p-10 flex flex-col justify-center items-center "style={{ backgroundColor: '#FCFCFC' }}>
+      {/* //gradientimg */}
+   
+
+
+        <div className='flex  flex-col md:justify-between justify-evenly  md:w-[720px] h-[550px] md:h-[621px]'>
             <div className='md:h-[162px] '>
       <h1 className="md:text-5xl text-4xl font-Title font-semibold mb-2 text-center">Think Upschooling</h1>
       <h2 className="md:text-5xl text-4xl font-Title font-semibold mb-5 text-center">Think Sircle</h2>

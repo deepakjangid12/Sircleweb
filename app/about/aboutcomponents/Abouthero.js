@@ -5,16 +5,21 @@ import { FaLinkedin } from 'react-icons/fa'; // Importing the LinkedIn icon
 import { FaAngleDoubleDown } from 'react-icons/fa';
 const HeroSection = () => {
   return (
-    <div className="flex flex-col  items-center justify-center  my-14 md:h-[600px] text-white">
+    <div className="flex flex-col  items-center justify-center h-[600px]  md:h-[710px]  text-white  bg-[url('/Assets/aboutherogradient.svg')] bg-cover bg-no-repeat bg-center ">
         <div className='flex flex-col items-center justify-between text-white   md:w-[794px] md:h-[469px]'>
-      <div className="flex justify-center  border  rounded-lg  items-center gap-8 md:gap-[80px] mb-4 w-[143px] md:w-[279px] h-[29px] md:h-[55px]">
+      <div className="flex justify-between px-3  border  rounded-lg  items-center   w-[143px] md:w-[279px] h-[29px] md:h-[55px]">
+        <div>
         <Image
           src="/Assets/logo.png"
           alt="logo"
           width={34}
           height={50}
-          className="rounded md:w-[90] md:h-[44] "
+          className="rounded md:w-[78] md:h-[40] "
         />
+        </div>
+        <div>
+          <h1 className='text-2xl'>|</h1>
+        </div>
         <div className="flex items-center">
         <FaLinkedin  className="md:size-10 size-4 mr-2 md:rounded-lg white" /> {/* Adjust the size and color if needed */}
         <div className="md:text-xs text-[5px] font-Title">
