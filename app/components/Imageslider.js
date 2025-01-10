@@ -92,8 +92,8 @@ const TrendingSlider = ({ title }) => {
                                 src={item.src}
                                 alt={`image of  ${item.name}`}
                                 className="rounded-lg"
-                                layout="fill"
-                                objectFit="cover"
+                                width={238}
+                                height={318}
                             />
                             <div className="absolute  p-2ebg-opacity-75 w-ful text-center bottom-6 ">
                                 <h3 className="font-semibold text-white ">{item.name}</h3>
