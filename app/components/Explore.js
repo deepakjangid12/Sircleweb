@@ -22,7 +22,7 @@ export default function Explore() {
                             <h2 className="md:text-5xl font-bold font-Title  ">Glow Up</h2>
                             <a href="#" className="md:mt-4 md:text-xl ">See Programs →</a>
                             <Image
-                                src="/Assets/stars.png"
+                                src="/Assets/stars.svg"
                                 width={100}
                                 height={100}
                                 alt="pattern"
@@ -47,7 +47,7 @@ export default function Explore() {
                             <h2 className="md:text-5xl font-bold font-Title">Skill Surge</h2>
                             <a href="#" className="md:mt-4 md:text-xl ">See Programs →</a>
                             <Image
-                                src="/Assets/stars.png"
+                                src="/Assets/stars.svg"
                                 width={100}
                                 alt="pattern"
                                 height={100}
@@ -65,10 +65,10 @@ export default function Explore() {
             <div className='p-4 '>
                 <div className="flex bg-black items-center border-t-2 border-l-2 border-b-4 border-r-4 justify-between  text-white rounded-xl p-4 w-[300px] h-[100px] md:w-[600px] md:h-[126px]  mx-auto md:my-12">
                     <div className="flex-grow">
-                        <h2 className="text-lg font-bold">Still Confused?</h2>
-                        <p className="text-sm">Talk To Councellor
-                            <a href="#" className="text-purple-600 font-semibold inline-flex items-center ml-2">
-                                <span className=" text-center  font-bold text-2xl">→</span> {/* Thicker arrow */}
+                        <h2 className="text-lg  font-bold">Still Confused?</h2>
+                        <p className="text-sm flex items-center ">Talk To Councellor
+                            <a href="#" className="text-purple-600  font-semibold inline-flex justify-center items-center ml-2">
+                                <span className=" font-bold text-2xl ">→</span> 
                             </a>
                         </p>
                     </div>
@@ -86,20 +86,7 @@ export default function Explore() {
                 </div>
             </div>
             
-            {/* <Image
-                            src="/Assets/exploregradient1.svg" // Replace with your robot image path
-                            alt="Confusion Robot"
-                            width={60}
-                            height={60}
-                            className='md:w-[600px] md:h-[600] absolute top-0 left-[-100px] border-2 opacity-40'
-                        />
-                           <Image
-                            src="/Assets/exploregradient1.svg" // Replace with your robot image path
-                            alt="Confusion Robot"
-                            width={60}
-                            height={60}
-                            className='md:w-[600px]  absolute md:h-[600] right-0   top-0'
-                            /> */}
+          
                             
             
         </div>

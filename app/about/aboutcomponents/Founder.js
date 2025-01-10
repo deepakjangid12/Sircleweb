@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import { MdStars } from "react-icons/md";
 
 const FoundersNote = () => {
   return (
-    <div className="flex flex-col md:flex-row mb-24 w-full md:px-[120px] bg-black md:bg-white text-black md:h-[600px] ">
+    <div className='bg-white'>
+    <div className="flex flex-col md:flex-row mb-24 w-full md:px-[120px] bg-black md:bg-white text-black md:h-[600px]  md:w-[1440px] mx-auto ">
       <div className="w-full md:w-1/2 flex  items-center md:justify-center justify-end order-1 md:order-2 bg-black md:bg-white relative">
       <Image
           src="/Assets/aboutsahil.svg" // replace with your actual image path
@@ -24,7 +26,7 @@ const FoundersNote = () => {
 
 
       <div className=" w-full md:w-1/2 flex   order-2 md:order-1 bg-white  ">
-        <div className="flex flex-col   md:justify-between justify-center  md:mt-12  px-5 md:px-0  w-[390px] h-[553px] md:w-[613px] md:h-[600px] relative ">
+        <div className="flex flex-col   md:justify-between justify-center  md:mt-12  px-5 md:px-0   h-[540px] md:w-[613px] md:h-[600px] relative ">
           <div className="md:w-[483px] md:h-[355px]  ">
             <h2 className="text-3xl md:text-5xl font-semibold font-Title mb-2">Founder’s Note</h2>
             <Image
@@ -41,8 +43,10 @@ const FoundersNote = () => {
               We found that there was a significant gap in the education-to-employment pipeline where students lacked skills that are bound to form an entire ecosystem of employment.
             </p>
             <p className="font-semibold mb-2">What can help them bridge the problem?</p>
+            <div className='flex items-center '>
+            <MdStars className='md:hidden size-5 mr-3 items-center'/>
             <h3 className="text-lg  md:text-2xl font-semibold">Upskilling.</h3>
-
+            </div>
 
 
           </div>
@@ -82,6 +86,7 @@ const FoundersNote = () => {
         </div>
       </div>
 
+    </div>
     </div>
   );
 }

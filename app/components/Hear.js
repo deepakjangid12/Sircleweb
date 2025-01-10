@@ -25,16 +25,16 @@ export default function HearItFromYourPeers() {
                 <div className="circle relative w-[250px] h-[250px] md:w-[400px] md:h-[400px] border-4 border-dashed rounded-full p-2 flex justify-center items-center">
 
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(0deg)' }}>
-                        <Image src="/Assets/circle3.png" alt="Peer Image 1" width={60} height={66} className="rounded-full md:w-[100px] md:h-[100px]" />
+                        <Image src="/Assets/circle3.svg" alt="Peer Image 1" width={60} height={66} className="rounded-full md:w-[100px] md:h-[100px]" />
                     </div>
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(90deg)', animationDelay: '-10s' }}>
-                        <Image src="/Assets/circle4.png" alt="Peer Image 2" width={70} height={70} className="rounded-full md:w-[112px] md:h-[112px]" />
+                        <Image src="/Assets/circle4.svg" alt="Peer Image 2" width={70} height={70} className="rounded-full md:w-[112px] md:h-[112px]" />
                     </div>
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(180deg)', animationDelay: '-20s' }}>
-                        <Image src="/Assets/circle2.png" alt="Peer Image 3" width={90} height={90} className="rounded-full md:w-[125px] md:h-[125px]" />
+                        <Image src="/Assets/circle2.svg" alt="Peer Image 3" width={90} height={90} className="rounded-full md:w-[125px] md:h-[125px]" />
                     </div>
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(270deg)', animationDelay: '-30s' }}>
-                        <Image src="/Assets/circle1.png" alt="Peer Image 4" width={51} height={51} className="rounded-full md:w-[92px] md:h-[92px]" />
+                        <Image src="/Assets/circle1.svg" alt="Peer Image 4" width={51} height={51} className="rounded-full md:w-[92px] md:h-[92px]" />
                     </div>
                 </div>
             </div>

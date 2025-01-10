@@ -28,7 +28,7 @@ const ResponsiveLayout = () => {
 
 
       <div className='absolute  top-0  md:top-[70px] md:left-[140px] '>
-                <Image src="/Assets/qsn.png" height={150} width={150} alt="QSN Icon" />
+                <Image src="/Assets/qsn.svg" height={150} width={150} alt="QSN Icon" />
          </div>
 
       <div className="flex justify-center  md:justify-start items-center w-full md:w-1/2 h-full">
@@ -37,25 +37,25 @@ const ResponsiveLayout = () => {
 
 
             <div className="flex flex-col  pt-5  rounded-lg w-full h-full md:px-5 px-3 border-2 border-purple-800 bg-gradient-to-br from-[rgba(6,6,6,0.9)] to-[rgba(171,6,213,0.92)] text-white">
-              <Image src="/Assets/frame1.png" height={40} width={50} alt="Personalized Guidance" className="mb-2 md:w-[70] md:h-[70] " />
+              <Image src="/Assets/frame1.svg" height={40} width={50} alt="Personalized Guidance" className="mb-2 md:w-[70] md:h-[70] " />
               <h2 className="md:text-xl text-base font-semibold px-1 my-1">Personalized<br />Guidance</h2>
               <p className="md:text-sm text-xs md:py-2 px-1">Get bespoke advice from students of esteemed colleges.</p>
             </div>
 
             <div className="flex flex-col  pt-5  rounded-lg w-full h-full md:px-5 px-3 bg-white text-purple-800 border-2 border-purple-800">
-              <Image src="/Assets/frame2.png" height={40} width={50} alt="Flexible Interaction" className="mb-2 md:w-[70] md:h-[70]" />
+              <Image src="/Assets/frame2.svg" height={40} width={50} alt="Flexible Interaction" className="mb-2 md:w-[70] md:h-[70]" />
               <h2 className="md:text-xl text-base font-semibold px-1 my-1">Flexible<br />Interaction</h2>
               <p className="md:text-sm text-xs md:py-2 px-1">Choose how you want to connect—through WhatsApp chat / calls.</p>
             </div>
 
             <div className="flex flex-col pt-5  rounded-lg w-full h-full md:px-5 px-3 bg-white text-purple-800 border-2 border-purple-800">
-              <Image src="/Assets/frame3.png" height={40} width={50} alt="Proven Strategies" className="mb-2 md:w-[70] md:h-[70]" />
+              <Image src="/Assets/frame3.svg" height={40} width={50} alt="Proven Strategies" className="mb-2 md:w-[70] md:h-[70]" />
               <h2 className="md:text-xl text-base font-semibold px-1 my-1">Proven<br />Strategies</h2>
               <p className="md:text-sm text-xs md:py-2 px-1">Our mentors share battle-tested strategies that go beyond books.</p>
             </div>
 
             <div className="flex flex-col pt-5  rounded-lg w-full h-full md:px-5 px-3 bg-white text-white  bg-gradient-to-br from-[rgba(6,6,6,0.9)] to-[rgba(171,6,213,0.92)]">
-              <Image src="/Assets/frame4.png" height={40} width={50} alt="Join Sircle" className="mb-2 md:w-[70] md:h-[70]" />
+              <Image src="/Assets/frame4.svg" height={40} width={50} alt="Join Sircle" className="mb-2 md:w-[70] md:h-[70]" />
               <h2 className="md:text-xl  text-base font-semibold px-1 my-1">Join<br />Sircle</h2>
               <p className="md:text-sm text-xs md:py-2 px-1">Where your potential meets our expertise.</p>
             </div>

@@ -17,7 +17,7 @@ const CardsSection = () => {
       <div className="flex justify-center md:h-[404px] w-[345px] h-[207px]  md:w-[720px]   relative ">
         {/* Card 1 */}
           <Image
-            src="/Assets/aboutthink2.svg" // Replace with your actual image path
+            src="/Assets/aboutthink1.svg" // Replace with your actual image path
             alt="Card 1"
             width={100}
             height={178}
@@ -36,7 +36,7 @@ const CardsSection = () => {
          
         {/* Card 3 */}
           <Image
-            src="/Assets/aboutthink2.svg" // Replace with your actual image path
+            src="/Assets/aboutthink3.svg" // Replace with your actual image path
             alt="Card 3"
             width={100}
             height={178}

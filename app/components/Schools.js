@@ -41,19 +41,19 @@ const Home = () => {
 
 
           <div className="flex items-center h-[70px] w-full justify-between animate-loop-scroll" >
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full  object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school2.png" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school3.png" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
-            <img src="/Assets/school1.png" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.svg" alt="Image 1" className="h-full  object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.svg" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.svg" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.svg" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.svg" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.svg" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.svg" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.svg" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.svg" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.svg" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school2.svg" alt="Image 2" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school3.svg" alt="Image 3" className="h-full object-contain mx-6 md:mx-12" />
+            <img src="/Assets/school1.svg" alt="Image 1" className="h-full object-contain mx-6 md:mx-12" />
         </div>
         
           </div>
@@ -68,7 +68,7 @@ const Home = () => {
             {/* First Stat Container */}
             <div className="flex flex-col items-center justify-center  w-[130px] md:w-[200px] md:h-[200px] h-[130px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
-                src="/Assets/stats1.png" // Replace with the actual image path
+                src="/Assets/stats1.svg" // Replace with the actual image path
                 alt="Futures Unlocked"
                 width={48} // Adjust as needed
                 height={60} // Adjust as needed
@@ -81,7 +81,7 @@ const Home = () => {
             {/* Second Stat Container */}
             <div className="flex flex-col items-center justify-center w-[130px] h-[130px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
-                src="/Assets/stats2.png" // Replace with the actual image path
+                src="/Assets/stats2.svg" // Replace with the actual image path
                 alt="Sessions Conducted"
                 width={48}
                 height={60}
@@ -94,7 +94,7 @@ const Home = () => {
             {/* Third Stat Container */}
             <div className="flex flex-col items-center justify-center  h-[130px] w-[130px] md:w-[200px] md:h-[200px] m-2 p-2  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"style={{ backgroundColor: '#FFFFFF' }}>
               <Image
-                src="/Assets/stats3.png" // Replace with the actual image path
+                src="/Assets/stats3.svg" // Replace with the actual image path
                 alt="Strong Insights"
                 width={48}
                 height={60}

@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="flex justify-between px-3  border  rounded-lg  items-center   w-[143px] md:w-[279px] h-[29px] md:h-[55px]">
         <div>
         <Image
-          src="/Assets/logo.png"
+          src="/Assets/logo.svg"
           alt="logo"
           width={34}
           height={50}

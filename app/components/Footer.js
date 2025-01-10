@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="flex  mt-8">
                         <Image
-                            src="/Assets/logo.png" // Path to your logo image
+                            src="/Assets/logo.svg" // Path to your logo image
                             alt="Sircle Logo"
                             width={50} // Adjust this value as needed for your design
                             height={50} // Adjust this value as needed for your design
