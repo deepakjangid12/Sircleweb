@@ -68,7 +68,7 @@ const imageData = [
         name: 'Aastha Goel',
         label: 'CWS'
     },
-    // Add more entries as needed
+
 ];
 
 const TrendingSlider = ({ title }) => {
