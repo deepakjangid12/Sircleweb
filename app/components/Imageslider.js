@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const imageData = [
     {
-        src: '/Assets/img2.png',
+        src: '/Assets/slide2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
@@ -14,16 +14,7 @@ const imageData = [
         label: 'CWS'
     },
     {
-        src: '/Assets/img2.png',
-        name: 'Divyanshi Agarwal',
-        label: 'CWS'
-    },
-    {
         src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
-    },  {
-        src: '/Assets/img2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
@@ -32,7 +23,7 @@ const imageData = [
         name: 'Aastha Goel',
         label: 'CWS'
     },  {
-        src: '/Assets/img2.png',
+        src: '/Assets/slide2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
@@ -41,7 +32,7 @@ const imageData = [
         name: 'Aastha Goel',
         label: 'CWS'
     },  {
-        src: '/Assets/img2.png',
+        src: '/Assets/slide2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
@@ -50,7 +41,7 @@ const imageData = [
         name: 'Aastha Goel',
         label: 'CWS'
     },  {
-        src: '/Assets/img2.png',
+        src: '/Assets/slide2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
@@ -59,7 +50,16 @@ const imageData = [
         name: 'Aastha Goel',
         label: 'CWS'
     },  {
-        src: '/Assets/img2.png',
+        src: '/Assets/slide2.png',
+        name: 'Divyanshi Agarwal',
+        label: 'CWS'
+    },
+    {
+        src: '/Assets/slide2.png',
+        name: 'Aastha Goel',
+        label: 'CWS'
+    },  {
+        src: '/Assets/slide2.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
