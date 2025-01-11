@@ -240,7 +240,7 @@ const TrendingSlider = ({ title }) => {
                                 alt={`image of  ${item.name}`}
                                 width={171}
                                 height={318}
-                                className="rounded-lg border-2 border-red-500 md:w-[238] h-[229] md:h-[318]"
+                                className="rounded-lg border-2 border-red-500 md:w-[238px] h-[229px] md:h-[318px]"
 
                             />
                             <div className="absolute   w-full text-center bottom-9 ">
