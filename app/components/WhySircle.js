@@ -5,12 +5,12 @@ import Image from 'next/image';
 
 const ResponsiveLayout = () => {
   return (
-    <div className=" flex flex-col   bg-white md:flex-row relative bg-[url('/Assets/vector.png')] justify-center md:px-[120]  md:py-2  md:h-[704px] "
+    <div className=" flex flex-col   bg-white md:flex-row relative bg-[url('/Assets/vector.png')] justify-center  md:py-2  md:h-[704px] "
 >
-      <div className="flex flex-col justify-center items-cente w-full md:w-1/2 space-y-6 ">
-  <div className="rounded-lg overflow-hidden max-w-[426px] w-full md:h-[279px] flex flex-col justify-center">
+      <div className="flex flex-col justify-center items-center w-full md:w-1/2 space-y-6 ">
+  <div className="rounded-lg  overflow-hidden max-w-[520px] w-full  md:h-[279px] flex flex-col justify-center">
     <div className="p-4 md:p-0 flex flex-col justify-center items-center md:items-start text-center md:text-left  ">
-      <h1 className="font-circle md:text-6xl text-5xl font-Title font-semibold leading-[90px] text-black">
+      <h1 className="font-circle md:text-6xl text-5xl font-Title font-semibold  text-black">
         Why
       </h1>
 
