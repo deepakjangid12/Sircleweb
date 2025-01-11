@@ -38,7 +38,7 @@ const VisionMission = () => {
               width={333}
               height={355}
               objectFit="cover"
-              className="rounded-lg md:w-[545] md:h-[355]"
+              className="rounded-lg md:w-[545px] md:h-[355px]"
             />
           </div>
         </div>
@@ -52,7 +52,7 @@ const VisionMission = () => {
               width={333}
               height={355}
               objectFit="cover"
-              className="rounded-lg md:w-[545] md:h-[355]"
+              className="rounded-lg md:w-[545px] md:h-[355px]"
             />
           </div>
 
