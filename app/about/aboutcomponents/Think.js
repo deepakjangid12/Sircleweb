@@ -21,7 +21,7 @@ const CardsSection = () => {
             alt="Card 1"
             width={100}
             height={178}
-            className=" md:w-[200] md:h-[346] h-[178] absolute left-5 md:left-10 bottom-3 md:bottom-5  object-cover -rotate-12"
+            className=" md:w-[200px] md:h-[346px] h-[178px] absolute left-5 md:left-10 bottom-3 md:bottom-5  object-cover -rotate-12"
           />
         
 
@@ -31,7 +31,7 @@ const CardsSection = () => {
             alt="Card 2"
             width={115}
             height={205}
-            className="md:w-[224] md:h-[398] h-[205px]  object-cover z-10"
+            className="md:w-[224px] md:h-[398px] h-[205px]  object-cover z-10"
           />
          
         {/* Card 3 */}
@@ -40,7 +40,7 @@ const CardsSection = () => {
             alt="Card 3"
             width={100}
             height={178}
-            className="md:w-[200] md:h-[346] h-[178] absolute bottom-3 md:bottom-5 right-5 md:right-10 object-cover rotate-12"
+            className="md:w-[200px] md:h-[346px] h-[178px] absolute bottom-3 md:bottom-5 right-5 md:right-10 object-cover rotate-12"
           />
          
         
