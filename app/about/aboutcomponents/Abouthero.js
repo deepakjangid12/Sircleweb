@@ -29,7 +29,7 @@ const HeroSection = () => {
           </div>
         </div >
         <div className='flex font-Title flex-col justify-between px-3  md:h-[370px]'>
-          <div className='stroke-effect-blur'>
+          <div className='stroke-effect'>
             <h1 className="text-[54px]  font-Title md:text-6xl text-white font-medium text-center mb-2">
               Skills that speak
             </h1>
