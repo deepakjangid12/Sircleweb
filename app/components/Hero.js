@@ -32,11 +32,11 @@ const Hero = () => {
     return (
         
         <div
-            className=" h-auto flex flex-col md:flex-row items-center justify-between  text-white   md:my-7 my-12 p-3  md:px-[120px] md:py-10   bg-[url('/Assets/vector.png')]"
+            className="   h-auto flex flex-col md:flex-row items-center justify-between  text-white   md:my-7 my-12 p-3  md:px-[120px] md:py-10   bg-[url('/Assets/vector.png')]"
             
         >
 
-            <div className="flex flex-col justify-center font-Title items-start w-full md:w-[483px] md:h-[541px] max-w-lg z-10  ">
+            <div className=" flex flex-col justify-center font-Title items-start w-full md:w-[483px] md:h-[541px] max-w-lg z-10  ">
                 {/* Replace the Image components with the styled text */}
                 <h1 className="text-6xl md:text-8xl font-bold stroke-effect" >DREAMS</h1>
                 <h2 className=" text-6xl md:text-8xl font-Title2 stroke-effect" >IN</h2>

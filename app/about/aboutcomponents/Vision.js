@@ -8,7 +8,7 @@ import { FaPlay } from "react-icons/fa";
 
 const VisionMission = () => {
   return (
-    <div className="text-white flex justify-center my-20 bg-[url('/Assets/vector.png')]">
+    <div className="text-white flex justify-center my-32 bg-[url('/Assets/vector.png')]">
       <div className='md:w-[1280px]  flex flex-col items-center justify-between  md:h-[873px]  '>
         
         {/* Vision Section */}

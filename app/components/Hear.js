@@ -2,11 +2,11 @@ import Image from 'next/image'; // Importing the Image component from Next.js
 
 export default function HearItFromYourPeers() {
     return (
-        <div className="flex flex-col md:flex-row mx-auto  text-white  p-3  md:px-[120px]  w-auto md:h-[560px] h-[600px]   bg-[url('/Assets/vector.png')] " >
+        <div className="flex flex-col md:flex-row mx-auto md:mt-10 text-white  p-3  md:px-[120px]  w-auto md:h-[560px] h-[600px]   bg-[url('/Assets/vector.png')] " >
             {/* Left Side - Text Content */}
             <div className="font-Title flex flex-col justify-center w-full md:w-1/2 pr-0 md:pr-8 mb-5 md:mt-0 mt-10 md:mb-0">
                 <h1
-                    className="md:text-6xl text-4xl font-medium font-Title mb-5 "
+                    className="md:text-7xl text-4xl font-medium font-Title mb-5 "
                     style={{
                         color: 'white',
                         WebkitTextStroke: '1px black',

@@ -15,13 +15,13 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row justify-center  ">
                 <div className="flex flex-col mb-6 w-full md:w-1/2">
                     <div className='max-w-lg'>
-                        <h2 className="text-2xl font-bold mb-4">Become an OG ✨</h2>
-                        <p className="mb-4">
+                        <h2 className="text-3xl font-medium mb-4">Become an OG ✨</h2>
+                        <p className="mb-4 opacity-80">
                             Join Sircle’s exclusive WhatsApp community of 500+ like-minded people! Access free resources, expert webinars, a peer network, and make friends who share your aspirations—all in one place!
                         </p>
                     </div>
                     {/* Adjusting Flex Container for Input and Image */}
-                    <div className="flex flex-row mt-6 justify-between items-center w-full md:w-[480px]">
+                    <div className="flex flex-row mt-6 justify-between items-center md:mb-16  md:mt-16 w-full md:w-[480px]">
                         <input
                             type="tel"
                             placeholder="Enter your Number"
@@ -37,7 +37,17 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="flex space-x-4 gap-4 mt-6">
+                  
+                    <div className="flex  ">
+                        <Image
+                            src="/Assets/logo.svg" // Path to your logo image
+                            alt="Sircle Logo"
+                            width={85} // Adjust this value as needed for your design
+                            height={50} // Adjust this value as needed for your design
+                        />
+                    </div>
+
+                    <div className="flex space-x-4 gap-4 mt-7 mb-">
                         <Link href="#" className="text-white hover:text-purple-400" aria-label="LinkedIn">
                             <FaLinkedin size={24} />
                         </Link>
@@ -48,40 +58,32 @@ const Footer = () => {
                             <FaTwitter size={24} />
                         </Link>
                     </div>
-                    <div className="flex  mt-8">
-                        <Image
-                            src="/Assets/logo.svg" // Path to your logo image
-                            alt="Sircle Logo"
-                            width={50} // Adjust this value as needed for your design
-                            height={50} // Adjust this value as needed for your design
-                        />
-                    </div>
                 </div>
 
                 <div className='flex justify-between flex-col md:flex-row gap-5 w-full md:w-1/2'>
                     <div className="flex flex-col mb-6 gap-2">
-                        <h3 className="text-lg font-semibold mb-2">Programs</h3>
-                        <Link className='hover:text-purple-400 mb-1' href="/glow-up">Glow UP</Link>
-                        <Link className="hover:text-purple-400" href="/power-play">Power Play</Link>
+                        <h3 className="text-2xl font-medium mb-2">Programs</h3>
+                        <Link className='hover:text-purple-400 mb-1 opacity-80' href="/glow-up">Glow UP</Link>
+                        <Link className="hover:text-purple-400 opacity-80" href="/power-play">Power Play</Link>
                     </div>
 
                     <div className="flex flex-col mb-6 gap-2">
-                        <h3 className="text-lg font-semibold mb-2">Learn More</h3>
-                        <Link className="hover:text-purple-400 mb-1" href="/terms-condition">Terms & Condition</Link>
-                        <Link className="hover:text-purple-400" href="/privacy-policy">Privacy Policy</Link>
+                        <h3 className="text-2xl font-medium mb-2">Learn More</h3>
+                        <Link className="hover:text-purple-400 mb-1 opacity-80" href="/terms-condition">Terms & Condition</Link>
+                        <Link className="hover:text-purple-400 opacity-80" href="/privacy-policy">Privacy Policy</Link>
                     </div>
 
                     <div className="flex flex-col mb-6 gap-2">
-                        <Link className='text-lg font-semibold mb-2' href="/contact">Contact us</Link>
+                        <Link className='text-2xl font-medium mb-2' href="/contact">Contact us</Link>
                         {/* <h3 className="text-lg font-semibold mb-2">Contact Us</h3> */}
-                        <Link className=' hover:text-purple-400 mb-1' href="/contact">+91 9817134356</Link>
-                        <Link className='hover:text-purple-400 mb-1' href="/contact">hello@sircle.in</Link>
-                        <p>E-Cell, i3F, IIT <br /> (BHU), Varanasi, Uttar <br /> Pradesh, 221001</p>
+                        <Link className=' hover:text-purple-400 mb-1 opacity-80' href="/contact">+91 9817134356</Link>
+                        <Link className='hover:text-purple-400 mb-1 opacity-80' href="/contact">hello@sircle.in</Link>
+                        <p className='opacity-80'>E-Cell, i3F, IIT <br /> (BHU), Varanasi, Uttar <br /> Pradesh, 221001</p>
                     </div>
                 </div>
             </div>
 
-            <p className="text-center  text-sm border-t border-white pt-6">
+            <p className="text-center opacity-80  text-sm border-t border-white pt-6">
                 &copy; 2024 Sircle.in | All Rights Reserved
             </p>
         </footer>

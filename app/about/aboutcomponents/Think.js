@@ -12,7 +12,7 @@ const CardsSection = () => {
             <div className='md:h-[162px] '>
       <h1 className="md:text-5xl text-4xl font-Title font-semibold mb-2 text-center">Think Upschooling</h1>
       <h2 className="md:text-5xl text-4xl font-Title font-semibold mb-5 text-center">Think Sircle</h2>
-      <p className="md:text-xl text-xl font-semibold font-Title text-center md:mb-10">Dreams In Action</p>
+      <p className="md:text-xl text-xl font-medium font-Title text-center md:mb-10">Dreams In Action</p>
       </div>
       <div className="flex justify-center md:h-[404px] w-[345px] h-[207px]  md:w-[720px]   relative ">
         {/* Card 1 */}

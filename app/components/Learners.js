@@ -93,7 +93,7 @@ const breakpoints = {
 
     return (
         <div className="  px-3 md:px-[120px]   ">
-            <div className="flex items-center justify-center  md:text-6xl text-4xl font-medium   md:h-[154px]  my-10 text-white md:stroke-effect-sm ">Hear it  from <br /> the Learners</div>
+            <div className="flex items-center justify-center stroke-effect-sm md:text-6xl text-4xl font-medium   md:h-[154px]  my-16 text-white md:stroke-effect-sm ">Hear it  from <br /> the Learners</div>
             <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid "

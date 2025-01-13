@@ -25,7 +25,7 @@ const Home = () => {
     <div className=' bg-black'>
       <div className="flex flex-col  items-center  justify-center  ">
         {/* Overall Container */}
-        <div className="md:w-[1185px] w-full md:h-[250px] flex flex-col items-center justify-between shadow-md p-4 mt-4 overflow-hidden">
+        <div className="md:w-[1185px] w-full md:h-[250px] flex flex-col items-center justify-between shadow-md p-4 md:mt-10 overflow-hidden">
           {/* Text Above the Images */}
           <div className="w-[292px] h-[64px] flex  justify-center  mb-7 ">
             <h2 className="md:text-2xl text-base font-medium font-Title text-white text-center">
@@ -36,7 +36,7 @@ const Home = () => {
           {/* Image container */}
           {/* <div className='flex overflow-hidden border-t border-b  p-3  border-gray-600 ' > */}
        
-          <div className='flex overflow-hidden p-7 border-t border-b border-gray-600 ' style={{ borderColor: 'rgba(96, 125, 139, 0.2)' }}>
+          <div className='flex overflow-hidden p-7 side-fade border-t border-b border-gray-600 ' style={{ borderColor: 'rgba(96, 125, 139, 0.2)' }}>
   
 
 
@@ -72,7 +72,7 @@ const Home = () => {
                 alt="Futures Unlocked"
                 width={48} // Adjust as needed
                 height={60} // Adjust as needed
-                className=" md:h-[50] md:w-[70] aspect-square object-contain "
+                className=" md:h-[50px] md:w-[70px] aspect-square object-contain "
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">5000+</div>
               <div className="md:mt-2 text-gray-600 font-Title md:text-sm text-[8px] font-medium  text-center">Futures Unlocked</div>
@@ -85,7 +85,7 @@ const Home = () => {
                 alt="Sessions Conducted"
                 width={48}
                 height={60}
-                className=" md:h-[50] md:w-[70] aspect-square object-contain"
+                className=" md:h-[50px] md:w-[70px] aspect-square object-contain"
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">30+</div>
               <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-[8px] text-center font-medium">Sessions Conducted</div>
@@ -98,7 +98,7 @@ const Home = () => {
                 alt="Strong Insights"
                 width={48}
                 height={60}
-                className="md:h-[50] md:w-[50] aspect-square object-contain"
+                className="md:h-[50px] md:w-[70px] aspect-square object-contain"
               />
               <div className="md:text-4xl text-xl mt-2 font-Title font-medium">1000+</div>
               <div className="md:mt-2 font-Title text-gray-600 md:text-sm text-[8px] text-center font-medium">Strong Insights</div>

@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const PartnershipsSection = () => {
   return (
-    <div className="bg-black p-5 text-white flex flex-col items-center my-8 md:my-[100px]">
-      <div className='flex flex-col justify-between md:w-[576px] md:h-[278px] h-[206px] '>
+    <div className="bg-black p-5 text-white flex flex-col items-center  md:my-[100px]">
+      <div className='flex flex-col justify-between md:w-[576px] my-5 md:h-[278px] h-[206px] '>
         <div>
           <h1 className="text-center md:text-3xl text-2xl  font-bold mb-4">
             We're also expanding through exciting new partnerships.
