@@ -106,7 +106,7 @@ body {
   color: transparent; 
   -webkit-text-stroke: 1px black;
   text-shadow: 
-    1.5px 1.5px 0 #ffffff;   
+    1px 1.5px 0 #ffffff;   
 }
 /* styles/globals.css */
 .gradient-border{

@@ -20,55 +20,24 @@ const imageData = [
         label: 'CWS'
     },
     {
-        src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
+        src: '/Assets/slide4.png',
+        name: 'Khushi Bansal',
+        label: 'Sunbeam Bhagwanpur'
     },  {
-        src: '/Assets/slide2.png',
+        src: '/Assets/slide5.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
     },
     {
-        src: '/Assets/slide2.png',
+        src: '/Assets/slide6.png',
         name: 'Aastha Goel',
         label: 'CWS'
     },  {
-        src: '/Assets/slide2.png',
+        src: '/Assets/slide7.png',
         name: 'Divyanshi Agarwal',
         label: 'CWS'
-    },
-    {
-        src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
-    },  {
-        src: '/Assets/slide2.png',
-        name: 'Divyanshi Agarwal',
-        label: 'CWS'
-    },
-    {
-        src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
-    },  {
-        src: '/Assets/slide2.png',
-        name: 'Divyanshi Agarwal',
-        label: 'CWS'
-    },
-    {
-        src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
-    },  {
-        src: '/Assets/slide2.png',
-        name: 'Divyanshi Agarwal',
-        label: 'CWS'
-    },
-    {
-        src: '/Assets/slide2.png',
-        name: 'Aastha Goel',
-        label: 'CWS'
-    },
+    }
+   
 
 ];
 
@@ -87,21 +56,21 @@ const TrendingSlider = ({ title }) => {
                     {imageData.map((item, index) => (
                         <div 
                             key={index}
-                            className="relative   rounded-lg shadow-md min-w-[200px] md:min-w-[280px] border-2 md:h-[350px] h-[248px] flex flex-col items-center md:justify-center"
+                            className="relative   rounded-lg shadow-md min-w-[200px] md:min-w-[280px]  md:h-[350px] h-[248px] flex flex-col items-center md:justify-center"
                         >
                             <Image
                                 src={item.src}
                                 alt={`image of  ${item.name}`}
                                 width={171}
                                 height={318}
-                                className="rounded-lg border-2 border-red-500 md:w-[238px] h-[229px] md:h-[318px]"
+                                className="rounded-lg  md:w-[238px] h-[229px] md:h-[318px]"
 
                             />
                             <div className="absolute   w-full text-center bottom-9 ">
                                 <h3 className="font-semibold text-white ">{item.name}</h3>
                             </div>
-                            <div className='absolute bottom-2 w-[60px] '>
-                          <h2 className="text-sm rounded-sm text-center border-1  bg-white">{item.label}</h2>
+                            <div className='absolute bottom-2 w-auto border border-black  '>
+                          <h2 className="text-sm font-medium rounded-sm text-center border-1 px-2 bg-white">{item.label}</h2>
                             </div>
                         </div>
                     ))}

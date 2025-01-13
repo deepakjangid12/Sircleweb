@@ -21,7 +21,7 @@ export default function HearItFromYourPeers() {
                 </p>
             </div>
             {/* Right Side - Circular Images */}
-            <div className="flex justify-center items-center w-full md:h-[546px] h-[570px]  md:mt-0 md:w-1/2 relative">
+            <div className="flex justify-center items-center w-full md:h-[546px] h-[600px]  md:mt-0 md:w-1/2 relative">
                 <div className="circle relative w-[250px] h-[250px] md:w-[400px] md:h-[400px] border-4 border-dashed rounded-full p-2 flex justify-center items-center">
 
                     <div className="absolute animate-orbit2 md:animate-orbit" style={{ transform: 'translate(100px) rotate(0deg)' }}>
