@@ -29,11 +29,11 @@ const HeroSection = () => {
           </div>
         </div >
         <div className='flex font-Title flex-col justify-between px-3  md:h-[370px]'>
-          <div className=''>
-            <h1 className="text-[54px] stroke-effect-blur font-Title md:text-6xl text-white font-medium text-center mb-2">
+          <div className='stroke-effect-blur'>
+            <h1 className="text-[54px]  font-Title md:text-6xl text-white font-medium text-center mb-2">
               Skills that speak
             </h1>
-            <h2 className="text-5xl stroke-effect-blur md:text-5xl px-4 font-Title text-white font-medium text-center mb-6">
+            <h2 className="text-5xl  md:text-5xl px-4 font-Title text-white font-medium text-center mb-6">
               Dreams that Soar
             </h2>
           </div>
