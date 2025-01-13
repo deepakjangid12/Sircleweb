@@ -21,7 +21,7 @@ const Footer = () => {
                         </p>
                     </div>
                     {/* Adjusting Flex Container for Input and Image */}
-                    <div className="flex flex-row mt-6 justify-between items-center md:mb-16  md:mt-16 w-full md:w-[480px]">
+                    <div className="flex flex-row mt-6 justify-between items-center md:my-16 w-full md:w-[480px]">
                         <input
                             type="tel"
                             placeholder="Enter your Number"
@@ -38,16 +38,17 @@ const Footer = () => {
 
 
                   
-                    <div className="flex  ">
+                    <div className="flex mt-4  ">
                         <Image
                             src="/Assets/logo.svg" // Path to your logo image
                             alt="Sircle Logo"
-                            width={85} // Adjust this value as needed for your design
+                            width={60} // Adjust this value as needed for your design
                             height={50} // Adjust this value as needed for your design
+                            className='md:w-[80px] md:h-[50px]'
                         />
                     </div>
 
-                    <div className="flex space-x-4 gap-4 mt-7 mb-">
+                    <div className="flex space-x-4 gap-4 mt-6 mb-">
                         <Link href="#" className="text-white hover:text-purple-400" aria-label="LinkedIn">
                             <FaLinkedin size={24} />
                         </Link>
